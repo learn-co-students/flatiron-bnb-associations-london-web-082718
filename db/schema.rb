@@ -48,6 +48,7 @@ ActiveRecord::Schema.define(version: 7) do
     t.string   "description"
     t.integer  "reservation_id"
     t.integer  "guest_id"
+    t.integer  "listing_id"
     t.integer  "host_id"
     t.datetime "created_at"
     t.datetime "updated_at"
